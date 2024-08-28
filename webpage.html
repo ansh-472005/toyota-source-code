@@ -1,0 +1,237 @@
+gi<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        .navbar{
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+           
+        }
+        .logo{
+            font-size: 50px;
+            font-weight: 700;
+            text-decoration: underline;
+            margin-left: -100px;
+
+        }
+        .logo img{
+            height: 70px;
+            width: 70px;
+            margin-top: -5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            margin-right: -60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            
+        }
+        .hero{
+            background: url(rr\ wallpaper.jpg);
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            position: absolute;
+        }
+        h1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: rgb(220, 220, 220);
+            margin-top: 190px;
+            font-size: 70px;
+            
+        }
+        p{
+            display: flex;
+            justify-content: space-around;
+            font-size: 30px;
+            align-items: center;
+            color: rgb(42, 50, 53);
+            
+        }
+        .comment{
+            height: 50px;
+            width: 100%;
+            margin-top: 728px;
+        }
+        h2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 10px;
+            color: rgb(93, 93, 93);
+           
+        }
+       .cardwrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(58, 50, 50);
+        position: absolute;
+        
+       }
+       .card{
+        position: relative;
+       }
+     img{
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+        cursor: pointer;
+       }
+       img:hover{
+        box-shadow: 15px 15px 15px 15px rgb(108, 98, 98);
+        cursor: pointer;
+        transition: all ease 0.5s;
+        
+       }
+       .hover{
+        height: 40px;
+        width: 100%;
+        background-color: rgb(147, 140, 140);
+        position: absolute;
+        bottom: 0;
+        border-bottom-left-radius: 20px ;
+        border-bottom-right-radius: 20px;
+        opacity: 0;
+        transition: all ease 2s;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+
+    .card:hover .hover{
+        opacity: 1;
+    }
+    h5{
+        margin-top: -75px;
+        margin-left: 80px;
+        text-decoration: underline;
+        color: rgb(86, 40, 40);
+        font-size: 50px;
+    }
+   
+    
+
+    </style>
+</head>
+<body>
+    <!-- header section start -->
+     <div class="navbar">
+        <div class="logo"><img src="https://image.lexica.art/full_webp/3048cbde-5faa-4de0-82e8-855c7f30f0eb" alt=""><h5>TOYOTA</h5></div>
+        <div class="content">
+            <a href="">Home</a>
+            <a href="">Portfolio</a>
+            <a href="">Blog</a>
+            <a href="">Full Width</a>
+            <a href="">Buy this theme</a>
+
+        </div>
+     </div>
+
+    <!-- header section close or end -->
+
+
+    <!-- hero start -->
+     <div class="hero">
+        
+        <h1>CLEAN & RESPONSIVE</h1>
+            <p>A Minimal Portfolio Wordpress Theme</p>
+        
+     </div>
+     <!-- hero end -->
+
+     <!-- hero comment -->
+     <div class="comment">
+        <h2>---------------------------------------- CONCEPTS CARS ----------------------------------------</h2>
+     </div>
+
+     <!-- cardwrapper start -->
+      <div class="cardwrapper">
+        <div class="card">
+            <div><img src="rr wallpaper.jpg" alt=""></div>
+            <div class="hover">
+                <h4>Rolls Royce</h4>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div><img src="1111.jpg" alt=""></div>
+            <div class="hover">
+                <h4>Bugatti Tourbillion</h4>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div><img src="2222.jpg" alt=""></div>
+            <div class="hover">
+                <h4>Aston Martin</h4>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div><img src="3333.jpg" alt=""></div>
+            <div class="hover">
+                <h4>McLaren</h4>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div><img src="4444.jpg" alt=""></div>
+            <div class="hover">
+                <h4>Bently</h4>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div><img src="5555.jpg" alt=""></div>
+            <div class="hover">
+                <h4>Ferarri</h4>
+            </div>
+            
+        </div>
+      </div>
+        
+
+        
+
+      <!-- cardwrapper close -->
+    
+</body>
+</html>
